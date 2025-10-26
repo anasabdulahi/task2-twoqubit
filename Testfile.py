@@ -19,4 +19,3 @@ def test_rejects_wrong_length():
 def test_generalises_to_three_qubits():
     v = prepare_state_n([1, 0, 0, 0, 0, 0, 0, 0])
     assert np.isclose(np.linalg.norm(v), 1.0), "3-qubit state not normalised."
-print("stfu pussy")
